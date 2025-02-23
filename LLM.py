@@ -31,7 +31,7 @@ class LLM:
 
 if __name__ == "__main__":
     llm = LLM(api_key=api_key)
-    with open("prompts/system_prompt", encoding='utf-8') as f:
+    with open("prompts/system_prompt.txt", encoding='utf-8') as f:
         data = f.read()
         llm.set_system_prompt(data)
 

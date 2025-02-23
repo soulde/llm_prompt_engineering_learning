@@ -1,3 +1,5 @@
 zhipuai
 langchain
 langgraph
+ollama
+pyautogui
